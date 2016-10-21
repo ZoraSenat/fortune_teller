@@ -1,4 +1,5 @@
 class FortunesController < ApplicationController
+
   def lucky
     @first_number = rand(100)
     @second_number = rand(100)
